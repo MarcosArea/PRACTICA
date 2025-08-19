@@ -32,7 +32,7 @@
     }
 
     #menu__nav:checked + .nav__list {
-        height: calc(100vh - 550px);
+        height: calc(100vh - 80px);
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -41,7 +41,7 @@
         left: 0;
         overflow-y: hidden;
         border-radius: 0px;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         padding: 20px 0 0 0;
         border: 0;
@@ -101,4 +101,9 @@
     .info h1 {
         font-size: 40px;
     }
-}
+
+    .info p {
+        font-size: 15px;
+    }
+    
+}   
