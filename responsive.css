@@ -7,7 +7,14 @@
 }
 @media (max-width:768px) {
     .nav {
+        background-image: linear-gradient(#000000ac, #000000a0),url(./img/fondo\ nav.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
         position: relative;
+        height: 120px;
+        padding: 20px 10px;
     }
 
     .nav__list {
@@ -21,34 +28,77 @@
     .menu__nav {
         display: flex;
         color: white;
+        cursor: pointer;
     }
 
     #menu__nav:checked + .nav__list {
-        height: calc(100vh - 100px);
-        width: 30%;
+        height: calc(100vh - 550px);
+        width: 100%;
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 70%;
-        left: 70%;
-        overflow: hidden;
+        top: 118px;
+        left: 0;
+        overflow-y: hidden;
         border-radius: 0px;
         justify-content: flex-start;
+        align-items: center;
         padding: 20px 0 0 0;
+        border: 0;
         -webkit-border-radius: 0px;
         -moz-border-radius: 0px;
         -ms-border-radius: 0px;
         -o-border-radius: 0px;
     }
-}
 
+    .nav__item1 {
+        width: 30%;
+        height: 8%;
+        display: flex;
+        background-color: blue;
+        padding: 10px;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav__item1 a {
+        color: wheat;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+
+    hr {
+        display: flex;
+        width: 100%;
+        border: 1px solid rgba(0, 0, 255, 0.427);
+    }
+
+    main {
+        margin-top: 100px;
+    }
+
+}
 @media (min-width:769px) and (max-width:1200px) {
     .nav__list {
         width: 500px;
     }
     .btn {
-        font-size: 15px;
+        font-size: 13px;
         width: 100px;
+        text-align: center;
     }
 
 }   
+
+@media (max-width:576px) {
+    main {
+        margin-top: 100px;
+    }
+
+
+    .info h1 {
+        font-size: 40px;
+    }
+}
