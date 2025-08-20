@@ -28,7 +28,7 @@
         display: none;
     }
     #menu__han:checked + .nav__list {
-        background: linear-gradient(rgba(0, 0, 0, 0.349)),url(./img/fondo.pagina.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.379)),url(./img/fondo.pagina.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -58,7 +58,6 @@
         text-transform: uppercase;
         border: 1.5px solid rgba(165, 7, 250, 0.639);
         padding: 5px;
-        background: rgba(166, 2, 255, 0.201);
         border-radius: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -74,7 +73,7 @@
     .line__nav { 
         display: flex;
         width: 100%;
-        border: 1px solid rgba(62, 2, 244, 0.432);
+        border: 1px solid rgba(236, 2, 244, 0.432);
     }
 
     .botones__header{
@@ -87,7 +86,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: rgba(0, 0, 255, 0.553);
+        background: rgba(236, 2, 244, 0.432);
         padding: 10px 15px;
         border-radius: 20px;
         -webkit-border-radius: 20px;
