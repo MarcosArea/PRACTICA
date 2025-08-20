@@ -5,53 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./responsive.css">
-    <title>Document</title>
+    <title>MI PRIMER PROYECTO</title>
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
-
-            <img src="./img/logo.nav.png" alt="logo" class="logo__nav">
-
-            <label class="menu__nav" for="menu__nav">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="menu__icon" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        <img src="./img/logo.nav.png" alt="logo" class="logo__header">
+        <nav class="navbar">
+            <label class="label__ham" for="menu__han">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="logo__ham"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                 </svg>
             </label>
-
-            <input class="input__nav" type="checkbox" name="" id="menu__nav">
-
+            <input type="checkbox" id="menu__han" class="input__ham">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="link">Home</a></li>
-
-                <li class="nav__item"><a href="#" class="link">Leard</a></li>
-
-                <li class="nav__item"><a href="#" class="link">Build</a></li>
-
-                <li class="nav__item"><a href="#" class="link">Products</a></li>
-
-                <li class="nav__item"><a href="#" class="link">Connect</a></li>
-
-                <hr>
-
-                <li class="nav__item1"><a href="https://wa.link/3oxxcy" target="_blank">Contact</a></li>
-
+                <li class="nav__item"><a class="link" href="#">Home</a></li>
+                <li class="nav__item"><a class="link" href="#">Leard</a></li>
+                <li class="nav__item"><a class="link" href="#">Build</a></li>
+                <li class="nav__item"><a class="link" href="#">Products</a></li>
+                <li class="nav__item"><a class="link" href="#">Connect</a></li> 
+                <hr class="line__nav">
+                <div class="botones__header">
+                    <li class="nav__item1"><a class="link1" href="https://wa.link/idohly" target="_blank">Contact</a></li>
+                    <li class="nav__item1"><a class="link1" href="./pages/registro.html" target="_blank">Registro</a></li>
+                </div>
             </ul>
-
-            <a href="https://wa.link/3oxxcy" target="_blank" class="btn">📞 Contact </a>
-
         </nav>
+        <div class="btn__header1">
+            <a class="btn__header" href="https://wa.link/idohly">contact</a>
+            <a class="btn__header" href="./pages/registro.html">Registro</a>
+        </div>
     </header>
-
-    <main class="main">
-        <hero class="info">
-            <h1>Bienvenidos a mi nuevo proyecto <br> MARCOS AREA</h1>
-            <p>Pagina dedicada a diseño web full stack</p>
-        </hero>
-        <hero class="btn__main">
-            <a href="#" class="hero__btn">Get Started → </a>
-            <a href="#" class="hero__btn">◉ What is IOTA?</a>
-        </hero>
-    </main>
 </body>
 </html>
