@@ -15,11 +15,11 @@ body {
 }
 
 .header {
-    background: linear-gradient(rgba(0, 0, 0, 0.639)),url(./img/fondo\ nav.jpg);
+    /* background: linear-gradient(rgba(0, 0, 0, 0)),url(./img/fondo\ nav.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     width: 100%;
     height: 150px;
     display: flex;
