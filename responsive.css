@@ -28,7 +28,7 @@
         display: none;
     }
     #menu__han:checked + .nav__list {
-        background: radial-gradient(#0836ec, #000000);
+        background: radial-gradient(#04165e, #46015f);
         width: 100%;
         height: 100%;
         display: flex;
@@ -75,7 +75,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: blue;
+        background: rgba(1, 1, 24, 0.322);
         padding: 10px 15px;
         border-radius: 20px;
         -webkit-border-radius: 20px;
