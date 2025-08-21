@@ -111,7 +111,11 @@
     .hero{
         padding: 0 10px;
     }
-
+    
+    .hero__card {
+        width: auto;
+        height: auto;
+    }
 
      .img1__hero {
         width: 150px;
@@ -154,11 +158,11 @@
     }
 
     .hero__info h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .hero__info p {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .btn__hero {
@@ -167,7 +171,9 @@
     }
 
     .hero__card {
-        padding: 20px 100px;
+        padding: 20px;
+        height: auto;
+        width: auto;
     }
 
     .img1__hero {
@@ -201,7 +207,9 @@
     }
 
     .hero__card {
-        padding: 30px;
+        height: auto;
+        width: auto;
+        padding: 20px;
     }
 
     .content__card__inicio h2 {
