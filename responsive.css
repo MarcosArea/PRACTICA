@@ -36,8 +36,9 @@
         width: 100%;
         min-height: 200vh;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         align-items: center;
+        gap: 40px;
         flex-direction: column;
         position: absolute;
         top: 150px;
@@ -46,6 +47,7 @@
         border: none;
         border-radius: 0;
         padding: 20px 0;
+        overflow: hidden;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         -ms-border-radius: 0;
