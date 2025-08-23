@@ -15,11 +15,6 @@ body {
 }
 
 .header {
-    /* background: linear-gradient(rgba(0, 0, 0, 0)),url(./img/fondo\ nav.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
     width: 100%;
     height: 150px;
     display: flex;
@@ -113,6 +108,7 @@ body {
 /* MAIN */
 
 .main {
+    width: 1200px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -215,7 +211,7 @@ body {
     -o-border-radius: 10px;
 }
 
-/* medio , galeria , producto */
+/* medio: GALERIA */
 
 .medio {
     width: 100%;
@@ -291,6 +287,59 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
+
+/* MEDIO INFO */
+
+.info__medio {
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 30px;
+}
+
+.info__medio1 {
+    background-color: rgba(0, 0, 0, 0.735);
+    display: flex;
+    flex-direction: column;
+    width:  400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    gap: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.logo__medio__info {
+    width: 50px;
+    height: 50px;
+}
+
+.info__medio1 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(157, 0, 255);
+    background: rgba(53, 8, 214, 0.025);
+}
+
+.info__medio1 p {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.783);
+}
+
+
+
+
 
 
 

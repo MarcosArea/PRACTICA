@@ -14,6 +14,7 @@
         align-items: center;
         padding: 10px;
     }
+
     .btn__header1 {
         display: none;
     }
@@ -27,6 +28,7 @@
     .nav__list {
         display: none;
     }
+
     #menu__han:checked + .nav__list {
         background: linear-gradient(rgba(0, 0, 0, 0.379)),url(./img/fondo.pagina.jpg);
         background-position: center;
@@ -34,7 +36,7 @@
         background-size: cover;
         background-attachment: fixed;
         width: 100%;
-        min-height: 50vh;
+        min-height: 60vh;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -53,6 +55,7 @@
         -ms-border-radius: 0;
         -o-border-radius: 0;
     }
+
 
     .link {
         font-size: 20px;
@@ -142,6 +145,11 @@
         text-align: center;
     }
 
+    .info__medio1 {
+        padding: 5px;
+    }
+
+
 }
 
 @media (max-width: 576px) {
@@ -198,6 +206,16 @@
     .content__card__hero {
         margin-top: 10px;
     }
+
+    .info__medio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -215,8 +233,17 @@
     .content__card__inicio h2 {
         text-align: center;
     }
- 
+
+    .info__medio {
+        padding: 20px;
+    } 
+
+    .info__medio1 {
+        padding: 0px 10px;
+        display: flex;
+        align-content: center;
+        padding: 20px 10px;
+    }
+
 }
-
-
 
