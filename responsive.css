@@ -208,11 +208,20 @@
     }
 
     .info__medio {
+        width: auto;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+    .info__medio1 {
+        width: auto;
+        height: auto;
+        padding: 10px;
+}
+
 
 
 
