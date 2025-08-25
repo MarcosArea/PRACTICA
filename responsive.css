@@ -126,9 +126,9 @@
     }
 
     .content__card__inicio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .content__card__inicio h2 {
