@@ -149,6 +149,13 @@
         padding: 5px;
     }
 
+    .nav-list-footer {
+        width: auto;
+        height: auto;
+        gap: 30px;
+        padding: 10px 20px;
+    }
+
 
 }
 
@@ -220,11 +227,18 @@
         width: auto;
         height: auto;
         padding: 10px;
-}
+    }
 
+    .nav-list-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-
-
+    .footer {
+        height: 250px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -253,6 +267,14 @@
         align-content: center;
         padding: 20px 10px;
     }
+
+    .nav-list-footer {
+        width: auto;
+        height: auto;
+        gap: 30px;
+        padding: 10px 30px;
+    }
+
 
 }
 
