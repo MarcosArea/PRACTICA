@@ -96,7 +96,7 @@ body {
 
 @media (max-width: 576px) {
     .input__registro {
-        width: auto;
+        width: 270px;
         padding: 0px 10px;
     }
 
