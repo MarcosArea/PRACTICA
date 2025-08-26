@@ -71,7 +71,7 @@
 
     .nav__item:hover {
         border: 0;
-        background-color:rgba(131, 15, 240, 0) ;
+        background-color:rgba(132, 0, 255, 0) ;
     }
 
     .line__nav { 
@@ -90,9 +90,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: rgba(236, 2, 244, 0.174);
+        background: rgba(236, 2, 244, 0.473);
         padding: 10px 15px;
         border-radius: 20px;
+        border: 2px solid black;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         -ms-border-radius: 20px;
