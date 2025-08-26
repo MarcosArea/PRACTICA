@@ -102,4 +102,7 @@ body {
     .form__1 {
         text-align: center;
     }
+    .input__registro {
+        font-size: 18px;
+    }
 }
